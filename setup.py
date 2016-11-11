@@ -30,6 +30,12 @@ setup(
     ],
 
     packages=['html5bp'],
+    package_data={
+        'html5bp': [
+            'templates/**',
+            'static/**'
+        ]
+    },
     provides=['html5bp'],
     requires=['Django'],
     install_requires=['Django'],
