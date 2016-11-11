@@ -1,0 +1,2 @@
+recursive-include html5bp/static *
+recursive-include html5bp/templates *
