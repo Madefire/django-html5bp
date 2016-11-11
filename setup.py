@@ -33,4 +33,5 @@ setup(
     provides=['html5bp'],
     requires=['Django'],
     install_requires=['Django'],
+    include_package_data=True,
 )
